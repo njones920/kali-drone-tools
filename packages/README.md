@@ -2,12 +2,12 @@
 
 Release archives contain one verified package here:
 
-- `kali-tools-drone_2025.1.0_amd64.deb`
+- `kali-tools-drone_2026.3.0_amd64.deb`
 
 SHA-256:
 
 ```text
-f242a778b5a2bd40eda7b51cdff226d29db9166de86afc67370899687364337f  kali-tools-drone_2025.1.0_amd64.deb
+58c339143bb41036ed7c2cedddd210e2ddfa05c370313b6ab86b84174b9cf71c  kali-tools-drone_2026.3.0_amd64.deb
 ```
 
 The metapackage source is under `packaging/`.

@@ -1,4 +1,4 @@
-kali-tools-drone (2025.1.0) kali; urgency=medium
+kali-tools-drone (2026.3.0) kali; urgency=medium
 
   * Initial release for Kali Linux.
   * Port from parrot-drone-tools v7.3.0 to Kali's menu and package ecosystem.

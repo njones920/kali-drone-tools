@@ -6,7 +6,7 @@
   <a href="https://www.kali.org/"><img alt="Kali Linux" src="https://img.shields.io/badge/Kali_Linux-rolling-557c94?style=flat-square"></a>
   <img alt="Architecture: amd64" src="https://img.shields.io/badge/architecture-amd64-7857d8?style=flat-square">
   <a href="LICENSE"><img alt="License: GPL-3.0-or-later" src="https://img.shields.io/badge/license-GPL--3.0--or--later-8bc34a?style=flat-square"></a>
-  <a href="https://github.com/njones920/kali-drone-tools/releases/tag/v2025.1.0"><img alt="Release: v2025.1.0" src="https://img.shields.io/badge/release-v2025.1.0-8bc34a?style=flat-square"></a>
+  <a href="https://github.com/njones920/kali-drone-tools/releases/tag/v2026.3.0"><img alt="Release: v2026.3.0" src="https://img.shields.io/badge/release-v2026.3.0-8bc34a?style=flat-square"></a>
 </p>
 
 Kali Drone Tools turns a standard Kali Linux desktop into a focused drone and
@@ -79,7 +79,7 @@ Suggested packages are not installed automatically.
 Healthy output looks like:
 
 ```text
-PASS  kali-tools-drone 2025.1.0
+PASS  kali-tools-drone 2026.3.0
 PASS  pymavlink 2.4.37
 PASS  7 menu categories
 PASS  26 application launchers
