@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=RfCat
+Comment=Sub-GHz transceiver control for drone telemetry links
+Encoding=UTF-8
+Exec=sudo rfcat -h
+Icon=kali-drone-rf
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=kali-drone-rf;kali-drone;
+X-Kali-Package=rfcat

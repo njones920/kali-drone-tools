@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Flashrom
+Comment=Dump or write SPI flash from an airframe
+Encoding=UTF-8
+Exec=sudo flashrom --help
+Icon=kali-drone-firmware
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=kali-drone-firmware;kali-drone;
+X-Kali-Package=flashrom

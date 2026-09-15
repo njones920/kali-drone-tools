@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Inspectrum
+Comment=Inspect captured drone radio signals offline
+Encoding=UTF-8
+Exec=inspectrum
+Icon=kali-drone-rf
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=kali-drone-rf;kali-drone;
+X-Kali-Package=inspectrum

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=mdk4 (deauth)
+Comment=Wi-Fi management frame testing tool
+Encoding=UTF-8
+Exec=sudo mdk4 --help
+Icon=kali-drone-remote-id
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=kali-drone-remote-id;kali-drone;
+X-Kali-Package=mdk4

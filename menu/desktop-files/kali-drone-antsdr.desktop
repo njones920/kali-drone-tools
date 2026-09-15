@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Kismet AntSDR DroneID
+Comment=Capture DJI DroneID traffic with an AntSDR E200
+Encoding=UTF-8
+Exec=sudo kismet_cap_antsdr_droneid --help
+Icon=kali-drone-remote-id
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=kali-drone-remote-id;kali-drone;
+X-Kali-Package=kismet-capture-antsdr-droneid

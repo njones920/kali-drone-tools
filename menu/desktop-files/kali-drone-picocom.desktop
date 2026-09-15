@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=picocom
+Comment=Serial console for flight-controller UART
+Encoding=UTF-8
+Exec=picocom --help
+Icon=kali-drone-firmware
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=kali-drone-firmware;kali-drone;
+X-Kali-Package=picocom

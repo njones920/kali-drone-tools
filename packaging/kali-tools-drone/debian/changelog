@@ -1,0 +1,9 @@
+kali-tools-drone (2025.1.0) kali; urgency=medium
+
+  * Initial release for Kali Linux.
+  * Port from parrot-drone-tools v7.3.0 to Kali's menu and package ecosystem.
+  * Add Wireshark, Bettercap, and Nmap drone-context launchers.
+  * Drop bundled pymavlink; Kali's python3-pymavlink 2.4.37-0kali2 works.
+  * Add Docker and hostapd-mana to Suggests.
+
+ -- Nate Jones <njones920@gmail.com>  Mon, 15 Sep 2026 12:00:00 -0700

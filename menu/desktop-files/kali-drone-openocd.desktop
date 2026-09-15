@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=OpenOCD
+Comment=Debug flight controllers over JTAG and SWD
+Encoding=UTF-8
+Exec=sudo openocd --help
+Icon=kali-drone-firmware
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=kali-drone-firmware;kali-drone;
+X-Kali-Package=openocd

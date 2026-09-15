@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Wireshark (drone filters)
+Comment=Graphical packet analyzer with AR.Drone, DJI UAV, and UAVCAN dissectors
+Encoding=UTF-8
+Exec=wireshark -k -Y "ar_drone || djiuav || uavcan_can || uavcan_dsdl"
+Icon=kali-drone-counter-uas
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=kali-drone-counter-uas;kali-drone;
+X-Kali-Package=wireshark

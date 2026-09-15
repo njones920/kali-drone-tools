@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Bettercap
+Comment=Network reconnaissance and MITM attacks on drone Wi-Fi links
+Encoding=UTF-8
+Exec=sudo bettercap --help
+Icon=kali-drone-remote-id
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=kali-drone-remote-id;kali-drone;
+X-Kali-Package=bettercap

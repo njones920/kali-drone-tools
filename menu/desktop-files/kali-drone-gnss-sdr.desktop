@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=GNSS-SDR
+Comment=GNSS software receiver for interference and spoofing detection
+Encoding=UTF-8
+Exec=sudo gnss-sdr --help
+Icon=kali-drone-gnss
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=kali-drone-gnss;kali-drone;
+X-Kali-Package=gnss-sdr

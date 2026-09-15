@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=GNU Radio Companion
+Comment=Signal processing flowgraphs for drone link analysis
+Encoding=UTF-8
+Exec=gnuradio-companion
+Icon=kali-drone-rf
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=kali-drone-rf;kali-drone;
+X-Kali-Package=gnuradio

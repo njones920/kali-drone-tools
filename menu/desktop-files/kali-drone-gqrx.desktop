@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Gqrx SDR
+Comment=Receive and inspect 2.4 GHz and 5.8 GHz drone links
+Encoding=UTF-8
+Exec=gqrx
+Icon=kali-drone-rf
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=kali-drone-rf;kali-drone;
+X-Kali-Package=gqrx-sdr

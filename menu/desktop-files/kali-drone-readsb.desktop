@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=readsb (ADS-B)
+Comment=Receive ADS-B traffic for airspace awareness and deconfliction
+Encoding=UTF-8
+Exec=sudo readsb --help
+Icon=kali-drone-counter-uas
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=kali-drone-counter-uas;kali-drone;
+X-Kali-Package=readsb

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=cgps
+Comment=Live GPS fix monitor
+Encoding=UTF-8
+Exec=cgps
+Icon=kali-drone-gnss
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=kali-drone-gnss;kali-drone;
+X-Kali-Package=gpsd-tools

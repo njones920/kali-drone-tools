@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=HackRF Sweep
+Comment=Survey 5.8 GHz FPV bands with HackRF
+Encoding=UTF-8
+Exec=sudo hackrf_sweep -f 5300:6000
+Icon=kali-drone-rf
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=kali-drone-rf;kali-drone;
+X-Kali-Package=hackrf

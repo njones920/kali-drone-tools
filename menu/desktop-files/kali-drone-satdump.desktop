@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=SatDump
+Comment=Satellite and downlink demodulation toolkit
+Encoding=UTF-8
+Exec=satdump-ui
+Icon=kali-drone-rf
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=kali-drone-rf;kali-drone;
+X-Kali-Package=satdump

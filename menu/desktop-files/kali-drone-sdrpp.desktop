@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=SDR++
+Comment=Cross-platform SDR software - wideband drone link analysis
+Encoding=UTF-8
+Exec=sdrpp
+Icon=kali-drone-rf
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=kali-drone-rf;kali-drone;
+X-Kali-Package=sdrpp

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Rizin
+Comment=Reverse engineering framework for flight-controller binaries
+Encoding=UTF-8
+Exec=rizin -h
+Icon=kali-drone-firmware
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=kali-drone-firmware;kali-drone;
+X-Kali-Package=rizin

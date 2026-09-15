@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=can-utils (DroneCAN)
+Comment=CAN utilities for DroneCAN and UAVCAN peripherals
+Encoding=UTF-8
+Exec=candump -h
+Icon=kali-drone-mavlink
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=kali-drone-mavlink;kali-drone;
+X-Kali-Package=can-utils

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Nmap (drone recon)
+Comment=Network scan drone companion computers and ground control stations
+Encoding=UTF-8
+Exec=bash -c "echo 'Nmap — scan drone networks'; echo 'Example: nmap -sV -p 5760,14550,14555,8554 <target>'; exec bash"
+Icon=kali-drone-counter-uas
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=kali-drone-counter-uas;kali-drone;
+X-Kali-Package=nmap

@@ -1,0 +1,56 @@
+--- kali-applications.menu
++++ kali-applications.menu
+@@ -19,6 +19,7 @@
+     <Menuname>Exfiltration</Menuname>
+     <Menuname>Impact</Menuname>
+     <Menuname>Forensics</Menuname>
++    <Menuname>Drone &amp; UAV</Menuname>
+     <Menuname>Services and Other Tools</Menuname>
+     <Merge type="all"/>
+   </Layout>
+@@ -590,6 +591,45 @@
+       </Include>
+     </Menu>
+   </Menu>
++  <Menu>
++    <Name>Drone &amp; UAV</Name>
++    <Directory>kali-drone.directory</Directory>
++    <Include>
++      <And>
++        <Category>kali-drone</Category>
++      </And>
++    </Include>
++    <Menu>
++      <Name>SDR &amp; RF Analysis</Name>
++      <Directory>kali-drone-rf.directory</Directory>
++      <Include><And><Category>kali-drone-rf</Category></And></Include>
++    </Menu>
++    <Menu>
++      <Name>Remote ID &amp; DroneID</Name>
++      <Directory>kali-drone-remote-id.directory</Directory>
++      <Include><And><Category>kali-drone-remote-id</Category></And></Include>
++    </Menu>
++    <Menu>
++      <Name>MAVLink &amp; Ground Control</Name>
++      <Directory>kali-drone-mavlink.directory</Directory>
++      <Include><And><Category>kali-drone-mavlink</Category></And></Include>
++    </Menu>
++    <Menu>
++      <Name>GNSS &amp; GPS</Name>
++      <Directory>kali-drone-gnss.directory</Directory>
++      <Include><And><Category>kali-drone-gnss</Category></And></Include>
++    </Menu>
++    <Menu>
++      <Name>Counter-UAS &amp; Detection</Name>
++      <Directory>kali-drone-counter-uas.directory</Directory>
++      <Include><And><Category>kali-drone-counter-uas</Category></And></Include>
++    </Menu>
++    <Menu>
++      <Name>Firmware &amp; Hardware</Name>
++      <Directory>kali-drone-firmware.directory</Directory>
++      <Include><And><Category>kali-drone-firmware</Category></And></Include>
++    </Menu>
++  </Menu>
+   <Menu>
+     <Name>Services and Other Tools</Name>
+     <Directory>kali-services-and-other-tools.directory</Directory>

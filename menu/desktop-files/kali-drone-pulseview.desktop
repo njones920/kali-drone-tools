@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=PulseView
+Comment=Inspect UART, SPI, and I2C signals on drone hardware
+Encoding=UTF-8
+Exec=pulseview
+Icon=kali-drone-firmware
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=kali-drone-firmware;kali-drone;
+X-Kali-Package=pulseview

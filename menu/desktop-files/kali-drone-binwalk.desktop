@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Binwalk
+Comment=Carve and analyse drone firmware images
+Encoding=UTF-8
+Exec=binwalk --help
+Icon=kali-drone-firmware
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=kali-drone-firmware;kali-drone;
+X-Kali-Package=binwalk
