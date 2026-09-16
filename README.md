@@ -13,9 +13,6 @@ Kali Drone Tools turns a standard Kali Linux desktop into a focused drone and
 UAV security workstation. It installs a curated, archive-native toolbox and adds
 the missing **Drone & UAV** application-menu domain.
 
-Ported from [parrot-drone-tools](https://github.com/njones920/parrot-drone-tools)
-and adapted for Kali's menu system, package naming, and rolling release model.
-
 ## What it adds
 
 | Menu category | Working set |
@@ -31,9 +28,7 @@ The metapackage recommends the relevant SDR backends and Kismet capture helpers
 already available in Kali, so supported radios can be added later without
 rebuilding the workstation.
 
-### Kali-specific additions
-
-Three launchers beyond the original Parrot edition:
+### Highlighted launchers
 
 - **Wireshark** — graphical packet analyzer with AR.Drone, DJI UAV, and UAVCAN
   dissector filters preconfigured
@@ -114,15 +109,14 @@ installed automatically.
 
 `kali-tools-drone` is the small metapackage that defines the toolbox.
 
-Unlike the Parrot edition, no bundled pymavlink compatibility package is needed.
-Kali's `python3-pymavlink` (2.4.37-0kali2) installs cleanly without the retired
-`python3-future` dependency that blocked installation on Parrot 7.x.
+Kali's `python3-pymavlink` (2.4.37-0kali2) installs cleanly from the
+repositories, so no bundled compatibility package is needed.
 
 The metapackage's Debian source is included under `packaging/` for inspection.
 Everything else is resolved normally from Kali's repositories.
 
-The original pymavlink compatibility patch is retained under `patches/` for
-reference and for anyone building against other Debian-based distributions.
+A pymavlink compatibility patch is retained under `patches/` for reference and
+for anyone building against other Debian-based distributions.
 
 ## Scope
 
@@ -153,18 +147,6 @@ packaging/             Debian source for kali-tools-drone
 patches/               pymavlink compatibility patch (reference)
 docs/                  scope and hardware guidance
 ```
-
-## Differences from parrot-drone-tools
-
-| Change | Detail |
-|---|---|
-| Menu system | Kali's `kali-applications.menu` with `kali-drone-*` categories |
-| Launcher protection | Removed — Kali doesn't need parrot-menu shadowing |
-| OS detection | `ID=kali` in `/etc/os-release`; no version gate (rolling) |
-| sudo wrapper | Standard `sudo` instead of `parrot-exec --sudo` |
-| pymavlink | No bundled patch needed; Kali's repo version works |
-| Extra launchers | +3 Kali-specific: Wireshark, Bettercap, Nmap |
-| DVD reference | `dvd-kali` instead of `dvd-parrot` |
 
 ## License
 

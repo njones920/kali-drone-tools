@@ -12,6 +12,6 @@ SHA-256:
 
 The metapackage source is under `packaging/`.
 
-Unlike the Parrot edition, no bundled pymavlink compatibility package is needed.
-Kali's `python3-pymavlink` (2.4.37-0kali2) installs cleanly without the retired
-`python3-future` dependency.
+No bundled pymavlink compatibility package is needed.
+Kali's `python3-pymavlink` (2.4.37-0kali2) installs cleanly from the
+repositories.
